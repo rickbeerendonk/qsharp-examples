@@ -8,12 +8,15 @@ namespace Demo {
     /// # Description
     /// # Input
     /// # Output
+    /// # Exceptions
     /// # TypeParameters
     /// # Named Items
     /// # Example
     /// # Remarks
     /// # See Also
     /// # References
+    /// # Notes
+    /// # Author
     function Main() : Unit {
         Message("Documentations Comments");
     }
