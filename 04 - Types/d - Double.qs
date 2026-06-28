@@ -14,7 +14,5 @@ namespace Demo {
 
         Message($"{explicitValue}"); // 3.14
         Message($"{implicitValue}"); // 3.14
-
-        // Q# does not support typeof/sizeof
     }
 }

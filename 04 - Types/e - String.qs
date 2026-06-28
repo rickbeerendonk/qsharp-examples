@@ -15,7 +15,5 @@ namespace Demo {
         // Interpolated string
         let name = "World";
         Message($"Hello, {name}!"); // Hello, World!
-
-        // Q# does not support typeof/sizeof
     }
 }
