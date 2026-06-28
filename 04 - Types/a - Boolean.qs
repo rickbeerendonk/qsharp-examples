@@ -4,6 +4,14 @@
 // Only comments and namespaces can be top-level elements
 namespace Demo {
     function Main() : Unit {
-        Message("Hello Q#!");
+        Message($"{false}"); // False
+        Message($"{true}");  // True
+
+        // Explicit vs Implicit
+        let explicitValue : Bool = true;
+        let implicitValue = true; // Bool (inferred)
+
+        Message($"{explicitValue}"); // True
+        Message($"{implicitValue}"); // True
     }
 }
